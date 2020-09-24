@@ -14,4 +14,4 @@ for x in lines:
 if total.is_integer:
 	print(int(total))
 else:
-	print(total)
+	print(float(total))
