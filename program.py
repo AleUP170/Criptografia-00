@@ -11,7 +11,7 @@ for x in lines:
 	total += float(x)
 
 # Imprime resultado, convirtiendo a in si es necesario
-if total.is_integer:
+if total.is_integer():
 	print(int(total))
 else:
-	print(float(total))
+	print(total)
