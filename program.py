@@ -10,5 +10,8 @@ total = 0
 for x in lines:
 	total += float(x)
 
-# Imprime resultado
-print(total)
+# Imprime resultado, convirtiendo a in si es necesario
+if total.is_integer:
+	print(int(total))
+else:
+	print(total)
